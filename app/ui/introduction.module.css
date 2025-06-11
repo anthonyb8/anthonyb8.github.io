@@ -1,0 +1,38 @@
+.introduction_container {
+  width: 80%;
+  height: 500px;
+  background-color: #2e2e2e;
+  color: #f4f0e0;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.introduction {
+  font-size: 1rem;
+  background-color: #2e2e2e;
+  opacity: 0.7;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-size: 3rem;
+  color: #f4f0e0;
+}
+
+.sub_heading {
+  font-size: 1.7rem;
+  color: #f4f0e0;
+}
+
+.about {
+  font-size: 1rem;
+  background-color: #2e2e2e;
+  opacity: 0.7;
+  width: 70%;
+  margin-bottom: 1.5rem; /* Adjust for more/less space */
+  line-height: 1.6;
+}

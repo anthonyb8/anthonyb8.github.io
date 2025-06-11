@@ -1,0 +1,35 @@
+.visualWrapper {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.scrap1,
+.scrap2,
+.scrap3 {
+  width: 99%;
+  height: 300px;
+  background-color: #2e2e2e;
+  opacity: 0.7;
+}
+
+.scrap1 {
+  top: 5%;
+  left: -50px;
+  transform: rotate(-3deg);
+}
+
+.scrap2 {
+  bottom: 10%;
+  right: -60px;
+  transform: rotate(5deg);
+}
+
+.scrap3 {
+  top: 40%;
+  left: 30%;
+  width: 150px;
+  height: 150px;
+  transform: rotate(-8deg);
+}
