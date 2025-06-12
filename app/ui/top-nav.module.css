@@ -1,8 +1,7 @@
 .top_nav_container {
-  background-color: #2e2e2e;
+  background-color: #1e1e1e;
   display: flex;
   align-items: center;
-  padding-right: 1%;
   color: #f4f0e0;
 }
 
@@ -21,20 +20,20 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 5%;
+  padding-right: 1%;
 }
 
 .top_nav_icons {
   font-size: 1rem;
-  color: white;
+  color: #f4f0e0;
   padding: 10px;
 }
 
-.resume_button {
-  background-color: transparent;
-  border: 1px solid #f4f0e0;
-  color: #f4f0e0;
-  border-radius: 5px;
-  padding: 10px;
+.resume_nav_icon {
   font-size: 1rem;
+  color: #1e1e1e;
+  background-color: #f4f0e0;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
 }

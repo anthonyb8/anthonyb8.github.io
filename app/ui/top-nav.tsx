@@ -30,10 +30,15 @@ export default function TopNav() {
         <a href="#contact" className={styles.top_nav_icons}>
           Contact
         </a>
+        <a
+          href="/Anthony_Baxter_Resume.pdf"
+          className={styles.resume_nav_icon}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
       </nav>
-      <button className={styles.resume_button}>
-        <a href="resume.txt">Resume</a>
-      </button>
     </div>
   );
 }

@@ -3,30 +3,42 @@ import styles from "@/app/ui/about.module.css";
 export default function About() {
   return (
     <div className={styles.about_container}>
-      <h3 className={styles.about_header}>About</h3>
+      <div className={styles.about_header_container}>
+        <h3 className={styles.about_header}>About</h3>
+      </div>
       <p className={styles.about}>
-        I am Full-Stack developer transitioned from the investment space. I
-        studied Finance and Accounting in undergrade. Looking to pursue a
-        Master's during the pandemc I became interested in the impact fo Supply
-        Chains on global economies, so I pursued a Master's in Suply chain
-        management. It was during these courses that I got my first taste of
-        programming.{" "}
+        I’m a full-stack developer who transitioned into software from the world
+        of finance. I studied Finance and Accounting during my undergraduate
+        degree and initially planned to continue in that direction. But during
+        the pandemic I took an interested in the impact supply chain
+        distruptions were having on global economies, leding me to pursue a
+        Master’s degree in Supply Chain Management.
       </p>
-      <p>{"\n"}</p>
+
       <p className={styles.about}>
-        I was instantly hooked on the idea of bringing tools to life with the
-        power of code. Knowing that I did not have the formal training I knew it
-        would take a signficant investment to develop the skills to produce real
-        production level code. So I learned by building, acquire skills along
-        the way, discarding old projects all in the quest of becoming a
-        profiecient developer.
+        It was during that program that I wrote my first line of code, and
+        immediately I was hooked. The idea of using code to bring ideas to life
+        and solve real problems deeply resonated with me. Without a formal
+        background in computer science, I knew I had to put in serious time and
+        effort to get to a professional level. So I started learning by
+        building.
       </p>
+
       <p className={styles.about}>
-        I have work with a number of different languages, frameworks and tools,
-        adding to my toolkit as I needed.To here is a list fo th technologie
-        that I have worke with te most as of late:
+        I’ve gone through dozens of side projects starting, scrapping,
+        refactoring, and learning from each one. Over time, I picked up the
+        tools and habits that real development work demands: systems design,
+        testing, version control, documentation and deployment. I've worked with
+        a variety of technologies, adding to my toolkit as needed and letting
+        curiosity lead the way.
       </p>
-      <p>{"\n"}</p>
+
+      <p className={styles.about}>
+        Today, I’m comfortable working across the stack from backend systems to
+        frontend frameworks. The technologies I’ve spent the most time with
+        lately include:
+      </p>
+
       <ul className={styles.technologies_list}>
         <li>Python</li>
         <li>FastAPI</li>

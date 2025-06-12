@@ -6,9 +6,12 @@ export default function Introduction() {
       <p className={styles.introduction}>Hello, my name is </p>
       <h1 className={styles.name}>Anthony Baxter</h1>
       <p className={styles.about}>
-        I am a Software Developer that enjoys building in Python,
-        Typescript/React and Rust. My intersest lie in build products related
-        finance, supply chain management and algorithimic trading.
+        I’m a software developer who enjoys building with{" "}
+        <strong>Python</strong>, <strong>TypeScript/React</strong>, and{" "}
+        <strong>Rust</strong>. I’m especially interested in developing products
+        in the areas of <strong>finance</strong>,{" "}
+        <strong>supply chain management</strong>, and{" "}
+        <strong>algorithmic trading</strong>.
       </p>
     </div>
   );

@@ -4,7 +4,7 @@ import About from "@/app/ui/about";
 import TopNav from "@/app/ui/top-nav";
 import Experience from "./ui/experience";
 import Contact from "./ui/contact";
-import Sidebar from "./ui/sidebar";
+import { Rightbar, Leftbar } from "./ui/sidebar";
 import Introduction from "./ui/introduction";
 import Projects from "./ui/projects";
 
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className={styles.page}>
         <div className={styles.left_bar}>
-          <Sidebar />
+          <Leftbar />
         </div>
         <main className={styles.main}>
           <section id="introduction" className={styles.introduction}>
@@ -34,9 +34,12 @@ export default function Home() {
           <section id="contact" className={styles.contact}>
             <Contact />
           </section>
+          <div className={styles.bottom_bar}>
+            <h4> Designed by Anthony Baxter</h4>
+          </div>
         </main>
         <div className={styles.right_bar}>
-          <Sidebar />
+          <Rightbar />
         </div>
       </div>
     </>

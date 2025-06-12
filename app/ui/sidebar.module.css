@@ -1,35 +1,61 @@
-.visualWrapper {
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 0;
+.sidebar_container {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  top: 0;
 }
 
-.scrap1,
-.scrap2,
-.scrap3 {
-  width: 99%;
-  height: 300px;
-  background-color: #2e2e2e;
-  opacity: 0.7;
+.lf_side_bar_1,
+.lf_side_bar_3,
+.lf_side_bar_5,
+.rf_side_bar_2,
+.rf_side_bar_4 {
+  width: 4px;
+  background: linear-gradient(90deg, #f4f0e0 2px, transparent 2px);
 }
 
-.scrap1 {
-  top: 5%;
-  left: -50px;
-  transform: rotate(-3deg);
+.gap_bar {
+  height: 120px;
 }
 
-.scrap2 {
-  bottom: 10%;
-  right: -60px;
-  transform: rotate(5deg);
+.lf_side_bar_1 {
+  height: 600px;
 }
 
-.scrap3 {
-  top: 40%;
-  left: 30%;
-  width: 150px;
-  height: 150px;
-  transform: rotate(-8deg);
+.lf_side_bar_2 {
+  height: 800px;
+}
+
+.lf_side_bar_3 {
+  height: 620px;
+}
+
+.lf_side_bar_4 {
+  height: 820px;
+}
+
+.lf_side_bar_5 {
+  height: 200px;
+}
+
+.rf_side_bar_1 {
+  height: 600px;
+}
+
+.rf_side_bar_2 {
+  height: 800px;
+}
+
+.rf_side_bar_3 {
+  height: 600px;
+}
+
+.rf_side_bar_4 {
+  height: 850px;
+}
+
+.rf_side_bar_5 {
+  height: 200px;
 }

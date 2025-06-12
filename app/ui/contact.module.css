@@ -1,25 +1,50 @@
-.contact_container {
+.contract_container {
   width: 80%;
-  height: 500px;
-  background-color: #2e2e2e;
+  height: 200px;
+  background-color: #1e1e1e;
   color: #f4f0e0;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.contact_header {
+.contract_header_container {
   display: flex;
   align-items: center;
-  text-align: center;
-
-  font-size: 1.5rem;
   font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   margin: 2rem 0;
 }
 
-.contact_header::after {
+.contract_header_container::after {
+  content: "";
+  flex: 9;
+  border-bottom: 2px solid #f4f0e0;
+  opacity: 0.5;
+}
+
+.contract_header_container::before {
   content: "";
   flex: 1;
   border-bottom: 2px solid #f4f0e0;
+  opacity: 0.5;
+}
+
+.contract_header {
+  letter-spacing: 0.1em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.contract_header::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #f4f0e0;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
 }

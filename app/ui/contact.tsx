@@ -2,18 +2,14 @@ import styles from "@/app/ui/contact.module.css";
 
 export default function Contact() {
   return (
-    <div className={styles.contact_container}>
-      <h3 className={styles.contact_header}>Contact</h3>
-      <p className={styles.about}>
-        Insert some text about coming to tech, background in finance and sports
-      </p>
-      <h3>Technologies</h3>
-      <ul>
-        <li>Python</li>
-        <li>Rust</li>
-        <li>Next.js</li>
-        <li>Typesript</li>
-      </ul>
+    <div className={styles.contract_container}>
+      <div className={styles.contract_header_container}>
+        <h3 className={styles.contract_header}>Contact</h3>
+      </div>
+      <div className={styles.info}>
+        <h4>Email: </h4>
+        <p> anthonybaxter819@gmail.com </p>
+      </div>
     </div>
   );
 }
