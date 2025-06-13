@@ -14,26 +14,26 @@
 
 .introduction {
   font-size: 1rem;
-  opacity: 0.7;
+  opacity: 0.5;
   font-family: sans-serif;
   padding-bottom: 10px;
 }
 
 .name {
-  color: #f4f0e0;
+  color: var(--off-white);
   font-size: 3rem;
-}
-
-.sub_heading {
-  font-size: 1.7rem;
-  color: #f4f0e0;
 }
 
 .about {
   font-size: 1rem;
-  background-color: #2e2e2e;
-  opacity: 0.7;
+  background-color: var(--lighter-bg);
+  opacity: 1;
   width: 70%;
   margin-bottom: 1.5rem;
   line-height: 1.6;
+}
+
+.about strong {
+  color: var(--accent-color);
+  opacity: 1;
 }

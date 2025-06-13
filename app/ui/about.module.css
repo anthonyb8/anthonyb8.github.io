@@ -31,14 +31,14 @@
 .about_header_container::after {
   content: "";
   flex: 9;
-  border-bottom: 2px solid #f4f0e0;
+  border-bottom: 2px solid var(--off-white);
   opacity: 0.5;
 }
 
 .about_header_container::before {
   content: "";
   flex: 1;
-  border-bottom: 2px solid #f4f0e0;
+  border-bottom: 2px solid var(--off-white);
   opacity: 0.5;
 }
 
@@ -60,7 +60,6 @@
 
 .technologies_list li::before {
   content: "➤ ";
-  color: #f4f0e0;
+  color: var(--accent-color);
   margin-right: 0.5rem;
-  opacity: 0.5;
 }

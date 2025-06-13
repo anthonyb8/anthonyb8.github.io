@@ -60,7 +60,7 @@
   border: none;
   font-size: 1.5rem;
   padding-left: 10px;
-  border-left: 2px solid var(--off-white);
+  border-left: 2px solid var(--accent-color);
   opacity: 0.3;
 }
 
@@ -72,7 +72,7 @@
 .experience_choice_selected {
   height: 100%;
   border: none;
-  border-left: 2px solid var(--off-white);
+  border-left: 2px solid var(--accent-color);
   color: var(--off-white);
   background-color: transparent;
   font-size: 1.5rem;
@@ -101,8 +101,9 @@
 /* .job_company { */
 /* } */
 /**/
-/* .job_tenure { */
-/* } */
+.job_tenure {
+  color: var(--accent-color);
+}
 
 .job_description {
   color: var(--off-white);

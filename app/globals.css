@@ -2,6 +2,8 @@
   --darker-bg: #1e1e1e;
   --lighter-bg: #2e2e2e;
   --off-white: #f4f0e0;
+  --lightest-bg: #444;
+  --accent-color: #ffc067;
 }
 html,
 body {
