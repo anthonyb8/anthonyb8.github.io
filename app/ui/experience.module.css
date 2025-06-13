@@ -1,8 +1,10 @@
+@import "@/app/globals.css";
+
 .experience_container {
   width: 80%;
-  height: 600px;
-  background-color: #1e1e1e;
-  color: #f4f0e0;
+  min-height: 620px;
+  background-color: var(--darker-bg);
+  color: var(--off-white);
   padding: 20px;
 }
 
@@ -25,82 +27,85 @@
 .experience_header_container::after {
   content: "";
   flex: 9;
-  border-bottom: 2px solid #f4f0e0;
+  border-bottom: 2px solid var(--off-white);
   opacity: 0.5;
 }
 
 .experience_header_container::before {
   content: "";
   flex: 1;
-  border-bottom: 2px solid #f4f0e0;
+  border-bottom: 2px solid var(--off-white);
   opacity: 0.5;
 }
+
 .experience_body {
   display: flex;
-  height: 80%;
+  min-height: 480px;
 }
 
 .experience_body_choice {
-  height: 50%;
-  text-align: left;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+  text-align: left;
   text-decoration: none;
 }
 
 .experience_choice {
   height: 100%;
   background-color: transparent;
+  color: var(--off-white);
   border: none;
   font-size: 1.5rem;
-  color: #f4f0e0;
   padding-left: 10px;
-  opacity: 0.7;
+  border-left: 2px solid var(--off-white);
+  opacity: 0.3;
 }
 
 .experience_choice:hover {
-  color: #f4f0e0;
+  color: var(--off-white);
   opacity: 1;
 }
 
 .experience_choice_selected {
-  border: none;
-  border-left: 2px solid #f4f0e0;
-  color: #f4f0e0;
   height: 100%;
+  border: none;
+  border-left: 2px solid var(--off-white);
+  color: var(--off-white);
   background-color: transparent;
   font-size: 1.5rem;
-  color: #f4f0e0;
   padding-left: 10px;
 }
 
 .experience_body_selected {
   flex: 4;
-  padding-left: 40px;
+  margin-left: 10px;
+  padding: 20px;
+  padding-left: 30px;
+  background-color: var(--lighter-bg);
 }
 
-.job_name {
-}
 .job_subheader {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #f4f0e0;
+  color: var(--off-white);
   opacity: 0.5;
 }
-
-.job_company {
-}
-
-.job_tenure {
-}
+/* .job_name { */
+/* } */
+/**/
+/* .job_company { */
+/* } */
+/**/
+/* .job_tenure { */
+/* } */
 
 .job_description {
-  color: #f4f0e0;
+  color: var(--off-white);
   line-height: 1.6;
 }
 

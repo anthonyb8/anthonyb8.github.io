@@ -1,8 +1,10 @@
+@import "@/app/globals.css";
+
 .introduction_container {
   width: 80%;
   height: 500px;
-  background-color: #2e2e2e;
-  color: #f4f0e0;
+  background-color: var(--lighter-bg);
+  color: var(--off-white);
   padding-left: 30px;
   display: flex;
   justify-content: center;
@@ -11,12 +13,10 @@
 }
 
 .introduction {
-  /* padding-left: 10px; */
   font-size: 1rem;
   opacity: 0.7;
   font-family: sans-serif;
   padding-bottom: 10px;
-  /* color: #ff6f61; */
 }
 
 .name {
@@ -34,6 +34,6 @@
   background-color: #2e2e2e;
   opacity: 0.7;
   width: 70%;
-  margin-bottom: 1.5rem; /* Adjust for more/less space */
+  margin-bottom: 1.5rem;
   line-height: 1.6;
 }

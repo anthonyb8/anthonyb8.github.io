@@ -1,17 +1,18 @@
+@import "@/app/globals.css";
+
 .top_nav_container {
-  background-color: #1e1e1e;
+  background-color: var(--darker-bg);
   display: flex;
   align-items: center;
-  color: #f4f0e0;
 }
 
 .icon_bar {
-  font-size: 1.5rem;
-  color: #f4f0e0;
+  color: var(--off-white);
   display: flex;
   flex-direction: row;
-  padding-left: 1%;
   gap: 20px;
+  padding-left: 1%;
+  font-size: 1.5rem;
 }
 
 .top_nav {
@@ -24,16 +25,16 @@
 }
 
 .top_nav_icons {
+  color: var(--off-white);
   font-size: 1rem;
-  color: #f4f0e0;
   padding: 10px;
 }
 
 .resume_nav_icon {
+  color: var(--darker-bg);
+  background-color: var(--off-white);
+  border: none;
   font-size: 1rem;
-  color: #1e1e1e;
-  background-color: #f4f0e0;
-  border: 1px solid white;
   border-radius: 10px;
   padding: 10px;
 }

@@ -11,7 +11,7 @@ export default function About() {
         of finance. I studied Finance and Accounting during my undergraduate
         degree and initially planned to continue in that direction. But during
         the pandemic I took an interested in the impact supply chain
-        distruptions were having on global economies, leding me to pursue a
+        distruptions were having on global economies, which led me to pursue a
         Master’s degree in Supply Chain Management.
       </p>
 
@@ -19,9 +19,9 @@ export default function About() {
         It was during that program that I wrote my first line of code, and
         immediately I was hooked. The idea of using code to bring ideas to life
         and solve real problems deeply resonated with me. Without a formal
-        background in computer science, I knew I had to put in serious time and
-        effort to get to a professional level. So I started learning by
-        building.
+        background in computer science, I knew it would take a significant
+        investment of time and effort to get to a professional level. So I
+        started learning by building.
       </p>
 
       <p className={styles.about}>
@@ -41,13 +41,14 @@ export default function About() {
 
       <ul className={styles.technologies_list}>
         <li>Python</li>
-        <li>FastAPI</li>
-        <li>Rust</li>
-        <li>Docker</li>
-        <li>React</li>
-        <li>Next.js</li>
         <li>Typescript</li>
+        <li>Rust</li>
+        <li>FastAPI</li>
+        <li>Next.js</li>
+        <li>PostgreSQL</li>
         <li>Django</li>
+        <li>React</li>
+        <li>Docker</li>
       </ul>
     </div>
   );

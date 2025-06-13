@@ -132,7 +132,7 @@ export default function Experience() {
                 : styles.experience_choice
             }
           >
-            Midas System
+            Midas
           </button>
           <button
             onClick={() => setSelected("nepc")}

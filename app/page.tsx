@@ -4,9 +4,16 @@ import About from "@/app/ui/about";
 import TopNav from "@/app/ui/top-nav";
 import Experience from "./ui/experience";
 import Contact from "./ui/contact";
-import { Rightbar, Leftbar } from "./ui/sidebar";
 import Introduction from "./ui/introduction";
 import Projects from "./ui/projects";
+
+function Sidebar({ bar }: { bar: boolean }) {
+  return (
+    <div className={styles.sidebar}>
+      <div className={bar ? styles.bar : styles.nobar} />
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -15,31 +22,53 @@ export default function Home() {
         <TopNav />
       </div>
       <div className={styles.page}>
-        <div className={styles.left_bar}>
-          <Leftbar />
-        </div>
-        <main className={styles.main}>
-          <section id="introduction" className={styles.introduction}>
+        <div className={`${styles.introduction} ${styles.section}`}>
+          <Sidebar bar={true} />
+          <section id="introduction" className={`${styles.main}`}>
             <Introduction />
           </section>
-          <section id="about" className={styles.about}>
+          <Sidebar bar={false} />
+        </div>
+
+        <div className={`${styles.about} ${styles.section}`}>
+          <Sidebar bar={false} />
+          <section id="about" className={styles.main}>
             <About />
           </section>
-          <section id="experience" className={styles.experience}>
+          <Sidebar bar={true} />
+        </div>
+
+        <div className={`${styles.experience} ${styles.section}`}>
+          <Sidebar bar={true} />
+          <section id="experience" className={styles.main}>
             <Experience />
           </section>
-          <section id="projects" className={styles.projects}>
+          <Sidebar bar={false} />
+        </div>
+
+        <div className={`${styles.projects} ${styles.section}`}>
+          <Sidebar bar={false} />
+          <section id="projects" className={styles.main}>
             <Projects />
           </section>
-          <section id="contact" className={styles.contact}>
+          <Sidebar bar={true} />
+        </div>
+
+        <div className={`${styles.contact} ${styles.section}`}>
+          <Sidebar bar={true} />
+          <section id="contact" className={styles.main}>
             <Contact />
           </section>
+          <Sidebar bar={false} />
+        </div>
+
+        <div className={`${styles.bottom} ${styles.section}`}>
+          <Sidebar bar={false} />
+
           <div className={styles.bottom_bar}>
-            <h4> Designed by Anthony Baxter</h4>
+            <h4> Designed by Anthony Baxter | Powered by NextJs</h4>
           </div>
-        </main>
-        <div className={styles.right_bar}>
-          <Rightbar />
+          <Sidebar bar={false} />
         </div>
       </div>
     </>
