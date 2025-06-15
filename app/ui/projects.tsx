@@ -17,7 +17,7 @@ function ProjectComponent({ name, content, link }: Project) {
       </div>
       <div className={styles.grid_item_link}>
         <a href={link}>
-          <FiExternalLink fontSize={"20px"} />
+          <FiExternalLink fontSize={"1rem"} />
         </a>
       </div>
     </div>

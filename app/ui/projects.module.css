@@ -1,13 +1,10 @@
-/* @import "@/app/globals.css"; */
-
+/*base(mobile) */
 .projects_container {
   color: var(--off-white);
   background-color: var(--darker-bg);
-  min-height: 800px;
-  margin-left: 20%;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  min-height: 90vh;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
 }
 
 /* Header  */
@@ -15,30 +12,30 @@
   display: flex;
   align-items: center;
   font-weight: bold;
-  margin: 2rem 0;
+  padding-bottom: 0.5rem;
 }
 
 .projects_header_container::after {
   content: "";
   flex: 9;
-  border-bottom: 2px solid var(--off-white);
+  border-bottom: 0.15rem solid var(--off-white);
   opacity: 0.5;
 }
 
 .projects_header_container::before {
   content: "";
   flex: 1;
-  border-bottom: 2px solid var(--off-white);
+  border-bottom: 0.15rem solid var(--off-white);
   opacity: 0.5;
 }
 
 .projects_header {
   letter-spacing: 0.1em;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 0.65rem;
+  padding-left: 0.65rem;
 }
 
 /* Body */
@@ -52,9 +49,10 @@
 
 .grid_item {
   display: flex;
+  flex-direction: column;
   color: var(--off-white);
   background-color: var(--lighter-bg);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 8px;
   transition:
     transform 0.2s ease,
@@ -72,8 +70,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-right: 20px;
-  border-right: 2px solid var(--accent-color);
+  border-bottom: 0.15rem solid var(--accent-color);
+  margin-bottom: 0.15rem;
+  font-size: 0.8rem;
 }
 
 .grid_item_head a:hover {
@@ -81,24 +80,133 @@
 }
 
 .grid_item_body {
+  padding-top: 0.25rem;
   flex: 10;
-  padding-left: 20px;
   display: flex;
   flex-direction: column;
+  font-size: 0.65rem;
 }
 
 .grid_item_body li {
   list-style: none;
-  padding-bottom: 10px;
+  padding-bottom: 0.5rem;
 }
 
 .grid_item_link {
   flex: 0.5;
   display: flex;
+  font-size: 0.2rem;
 }
 
 .grid_item_link a {
   flex: 1;
   text-align: right;
   color: var(--accent-color);
+}
+
+@media (min-width: 600px) {
+  .projects_container {
+    color: var(--off-white);
+    background-color: var(--darker-bg);
+    margin-left: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* Header  */
+  .projects_header_container {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 2rem 0;
+  }
+
+  /* .projects_header_container::after { */
+  /*   content: ""; */
+  /*   flex: 9; */
+  /*   border-bottom: 2px solid var(--off-white); */
+  /*   opacity: 0.5; */
+  /* } */
+
+  /* .projects_header_container::before { */
+  /*   content: ""; */
+  /*   flex: 1; */
+  /*   border-bottom: 2px solid var(--off-white); */
+  /*   opacity: 0.5; */
+  /* } */
+
+  .projects_header {
+    /*   letter-spacing: 0.1em; */
+    font-size: 1.5rem;
+    /*   font-weight: bold; */
+    /*   text-transform: uppercase; */
+    /*   padding-right: 10px; */
+    /*   padding-left: 10px; */
+  }
+
+  /* Body */
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .grid_item {
+    display: flex;
+    flex-direction: row;
+    color: var(--off-white);
+    background-color: var(--lighter-bg);
+    font-size: 1rem;
+    /* padding: 2rem; */
+    border-radius: 8px;
+    transition:
+      transform 0.2s ease,
+      background-color 0.2s ease;
+  }
+
+  /* .grid_item:hover { */
+  /*   background-color: var(--lightest-bg); */
+  /*   transform: scale(1.02); */
+  /* } */
+
+  .grid_item_head {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 20px; */
+    border: none;
+    border-right: 0.15rem solid var(--accent-color);
+  }
+
+  .grid_item_head a:hover {
+    color: orange;
+  }
+
+  .grid_item_body {
+    flex: 10;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+
+  .grid_item_body li {
+    list-style: none;
+    padding-bottom: 0.65rem;
+  }
+
+  .grid_item_link {
+    flex: 0.5;
+    display: flex;
+  }
+
+  .grid_item_link a {
+    flex: 1;
+    text-align: right;
+    color: var(--accent-color);
+  }
 }
