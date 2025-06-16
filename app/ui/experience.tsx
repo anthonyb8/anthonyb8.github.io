@@ -71,7 +71,7 @@ export default function Experiences() {
                 : styles.experience_choice
             }
           >
-            NEPC, LLC
+            NEPC
           </button>
           <button
             onClick={() => setSelected("ncaa")}

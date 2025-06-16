@@ -66,7 +66,7 @@ export default function Home() {
           <Sidebar bar={false} />
 
           <div className={styles.bottom_bar}>
-            <h4> Designed by Anthony Baxter | Powered by NextJs</h4>
+            <h4> Designed & Built by Anthony Baxter | Powered by NextJs</h4>
           </div>
           <Sidebar bar={false} />
         </div>

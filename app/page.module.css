@@ -31,23 +31,23 @@
 }
 
 .introduction {
-  min-height: 60vh;
+  min-height: auto;
 }
 
 .about {
-  min-height: 95vh;
+  min-height: auto;
 }
 
 .experience {
-  min-height: 70vh;
+  min-height: auto;
 }
 
 .projects {
-  min-height: 95vh;
+  min-height: auto;
 }
 
 .contact {
-  min-height: 20vh;
+  min-height: auto;
 }
 
 .bottom {

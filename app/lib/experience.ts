@@ -8,7 +8,7 @@ export interface Experience {
 
 export const midas: Experience = {
   job_title: "Software Developer",
-  company_name: "Midas Trading System",
+  company_name: "Midas System",
   location: "Oakville, ON",
   tenure: "Jan 2024 -> Present",
   description: [
