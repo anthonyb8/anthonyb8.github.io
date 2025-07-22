@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# anthonyb8.github.io
 
-## Getting Started
+Welcome! This is the source code for my personal website, hosted via [GitHub Pages](https://pages.github.com/) at:
 
-First, run the development server:
+🔗 **[https://anthonyb8.github.io](https://anthonyb8.github.io)**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This site serves as my personal and professional homepage. It includes information about me, my projects, and how to get in touch.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The site is built using simple, static web technologies (HTML, CSS, and a bit of JavaScript) and automatically deployed through GitHub Pages.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This site is hosted directly from the `main` branch using GitHub Pages. Any changes pushed to this repository will be reflected live at:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**https://anthonyb8.github.io**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you'd like to reach out, you can find my contact details and social links on the website itself.
+
+---
+
+## 🛠 License
+
+This repository is licensed under the [MIT License](LICENSE) unless otherwise stated.
